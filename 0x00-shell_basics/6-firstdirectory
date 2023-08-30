@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$(mkdir /tmp/my_first_directory)\n"
+printf "$(cd /tmp; mkdir my_first_directory)\n"
