@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%d\n" "$((#water + #stir))" | bc | tr -d '\n' > result.bestchol
+printf "%o\n" $(( $#$(echo $STIR | tr stir. '0-4 ) )) + $(( 5#$(echo $WATER \ tr water '0-4') )) |tr '0-7' bestchol
