@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Script to print "Bad Luck @4 and Good luck @8 else Best School"
 i="1"
-while [ $i -lt 10 ]
+while [ $i -lt 11 ]
 do
 	if [ $i = 4 ]
 	then 
